@@ -77,8 +77,10 @@ export default function App() {
   // === JSX giao diện ===
   return (
     <div
-      className="app-root min-h-screen flex items-center justify-center p-6 bg-cover bg-center"
-      style={{ backgroundImage: `url(${bgPlaceholder})` }} // 🌟 Thêm dòng này
+      className={`app-root min-h-screen flex items-center justify-center p-6 bg-cover bg-center transition-all duration-500 ${
+        step === 3 && mood ? moodConfig[mood].bg : ""
+      }`}
+      style={{ backgroundImage: step === 3 ? "none" : `url(${bgPlaceholder})` }}
     >
       <div className="card max-w-md w-full p-6 rounded-2xl shadow-lg bg-white/90 backdrop-blur-md">
         <h1 className="text-2xl font-bold text-center mb-3">Pokémon Mood Matcher</h1>

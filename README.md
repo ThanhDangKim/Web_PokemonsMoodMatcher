@@ -14,6 +14,7 @@ Người dùng chọn tâm trạng (happy, sad, angry, calm...), mô tả cảm 
 
 ## 🧠 Cách ứng dụng AI
 🔹 AI sử dụng: Ứng dụng này sử dụng Google Gemini 
+
 🔹 Vai trò của AI
 
 Gợi ý Pokémon phù hợp với cảm xúc người dùng → AI nhận mô tả tâm trạng và đưa ra một Pokémon phù hợp.

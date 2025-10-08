@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App-level styles and mood backgrounds */
+.bg-happy { background: linear-gradient(135deg, #fef3c7, #fde68a); }
+.bg-sad { background: linear-gradient(135deg, #dbeafe, #93c5fd); }
+.bg-angry { background: linear-gradient(135deg, #fee2e2, #fca5a5); }
+.bg-calm { background: linear-gradient(135deg, #ecfccb, #bbf7d0); }
+.app-root { transition: background 0.6s ease; }

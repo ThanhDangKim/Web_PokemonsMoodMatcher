@@ -1,0 +1,5 @@
+# Secret key
+.env
+
+# Library
+node_modules/

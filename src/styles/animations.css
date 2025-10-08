@@ -1,0 +1,41 @@
+/* 3D card flip */
+.card-3d {
+    perspective: 1200px;
+}
+
+.card-inner {
+    width: 100%;
+    height: 360px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(.2, .8, .2, 1);
+    cursor: pointer;
+}
+
+.card-3d.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* 🔹 Viền và bóng cho mỗi mặt thẻ */
+    border: 2px solid #d1d5db;
+    background: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card {
+    border-radius: 16px;
+}

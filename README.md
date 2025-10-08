@@ -43,9 +43,10 @@ Phát triển từ ý tưởng chọn ra một pokemon ngẫu nhiên.
 
 | Hỗ trợ từ AI | Cách tôi sử dụng | Cách tôi chỉnh sửa |
 |---------------|------------------|--------------------|
-| **Viết khung code React, logic gọi API** | Dùng ChatGPT để sinh code ban đầu và Gemini tạo ảnh background | Tự chỉnh sửa cú pháp, tối ưu import, thêm xử lý lỗi và logic kiểm tra dữ liệu |
-| **Gợi ý prompt cho Gemini API** | Dựa trên gợi ý, tôi tinh chỉnh lại prompt để chỉ trả về tên Pokémon | Giới hạn đầu ra, thêm logic “clean” kết quả |
+| **Lên ý tưởng** | Dùng ChatGPT để tham khảo xem ý tưởng của bản thân có tính hay ho mới lạ không | Tham khảo từ ý tưởng có sẵn, từ AI gợi ý và phát triển thêm |
+| **Viết khung code React, logic gọi API** | Dùng ChatGPT để sinh khung code ban đầu từ ý tưởng và Gemini tạo ảnh background | Tự chỉnh sửa cú pháp, tối ưu lại khung code, thêm xử lý lỗi và logic kiểm tra dữ liệu |
 | **Tạo UI cơ bản với TailwindCSS** | AI giúp tôi sinh layout 3 bước | Tôi cải thiện bố cục, thêm animation 3D và responsive |
+| **Gợi ý nên kết hợp thêm AI** | Dựa trên gợi ý, tôi tinh chỉnh lại prompt, phát triển việc áp dụng AI để chỉ trả về tên Pokémon | Giới hạn đầu ra, thêm logic “clean” kết quả |
 | **Debug lỗi import module @google/genai** | AI hướng dẫn cách chuyển từ GoogleGenerativeAI → GoogleGenAI (phiên bản mới) | Tôi kiểm tra và xác nhận với tài liệu chính thức để sửa dứt điểm |
 
 ---
